@@ -16,6 +16,11 @@ body{
     align-items: center;
 }
 
+#TimerText{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #Buttons{
     display: flex;
     flex-wrap: wrap;
