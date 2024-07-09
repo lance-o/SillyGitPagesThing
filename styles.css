@@ -1,0 +1,39 @@
+body{
+    margin:0px;
+    position: absolute;
+}
+
+#Content{
+    position: relative;
+    left:25vw;
+    top:25vh;
+    display: flex;
+    background-color: aliceblue;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+
+#StartTimer{
+    width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+}
+
+#AddMinus{
+    display: flex;
+    justify-content: space-between;
+}
